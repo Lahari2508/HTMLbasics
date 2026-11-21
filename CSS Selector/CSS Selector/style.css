@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: red;
+
+}
+#heading1 {
+    color: blue;
+
+}
+h1 {
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: palevioletred;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+p {
+    background-color: cadetblue;
+    font-size: 16px;
+    margin: 10px 0;
+}
+h3 ~ p {
+    background-color: lightgoldenrodyellow;
+}
+
+.demo {
+    color: darkorchid;
+    font-weight: bold;
+    background-color: lightblue;
+    padding: 8px;
+}
+.container p {
+    color: lightcoral;
+    background-color: lightyellow;
+    padding: 8px;
+}
+.container > p {
+    color: purple;
+    font-weight: bold;
+}
+input[type="text"] {
+    background-color: lightpink;
+    padding: 8px;
+}
+input[type="password"] {
+    background-color: lightblue;
+    padding: 8px;
+}
+input[type="email"] {
+    background-color: papayawhip;
+    padding: 8px;
+}
+button:hover {
+    background-color: orange;
+    color: white;
+}
+button:active {
+    background-color: red;
+}
+input:focus {
+    outline: 2px solid blue;
+    background-color: lightyellow;
+}
+
+li:first-child {
+    color: red;
+    font-weight: bold;
+}
+li:first-child {
+    color: red;
+    font-weight: bold;
+}
+/* ::first-letter
+   Styles the first letter of paragraph */
+.pseudo::first-letter {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+/* ::first-line
+   Styles the first line of paragraph */
+.pseudo::first-line {
+    color: blue;
+}
+p {
+    color: blue;
+}
+
+/* Class selector - higher than element selector */
+.text {
+    color: darkorange;
+}
+
+/* ID selector - higher than class selector */
+#para {
+    color: red;
+}
+
+
+
+
